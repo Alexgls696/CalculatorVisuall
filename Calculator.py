@@ -160,7 +160,7 @@ def Random():
     for i in range(count):
         REZ += str(random.randint(0,9))
     if REZ[0] == "0":
-        REZ[0] = "1"
+        REZ.replace("0","1",1)
     Row.insert(0, Begin+str(REZ))
 
 tk.Label(window,text="Случайное\nчисло",font=("Times New Roman",8),bg="White").grid(row=5,column=0)

@@ -69,7 +69,7 @@ window = tk.Tk()
 window.title("Калькулятор")
 window.geometry("310x400+600+200")
 window.resizable(False, False)
-window.iconphoto(False, tk.PhotoImage(file=r"C:\Users\Александр\Desktop\ПРОЕКТ калькулятор\2819726.png"))
+#window.iconphoto(False, tk.PhotoImage(file=r"C:\Users\Александр\Desktop\ПРОЕКТ калькулятор\2819726.png")) #Изменено 02.03.2023.
 window.config(bg="White")
 
 #Создание панели ввода
